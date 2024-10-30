@@ -1,0 +1,65 @@
+.dpf-taxonomies {
+    margin: 20px 0;
+}
+
+.dpf-info {
+    background: #fff;
+    border-left: 4px solid #00a0d2;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.dpf-info code {
+    background: #f0f0f1;
+    padding: 3px 5px;
+}
+
+.taxonomy-row {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.taxonomy-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.taxonomy-header h3 {
+    margin: 0;
+}
+
+.taxonomy-fields {
+    display: grid;
+    gap: 15px;
+}
+
+.field-group {
+    display: grid;
+    gap: 5px;
+}
+
+.field-group label {
+    font-weight: 600;
+}
+
+.post-type-checkboxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.post-type-checkboxes label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+}
+
+#add-taxonomy {
+    margin-top: 10px;
+}
